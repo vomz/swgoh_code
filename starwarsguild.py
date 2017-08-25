@@ -8,25 +8,55 @@ start_time = time.time()
 # Start a session
 session = requests.session()
 
+front = session.get('https://swgoh.gg/')
+collection = BeautifulSoup(front.text,'html.parser')
+names=collection.find_all("li","media list-group-item p-0 character")
+
+toons=[]
+
+links = []
+for i in range(0,len(names)):
+    links.append(names[i].img.get('alt'))
+
+dicti={key:[] for key in links}
+    
+file = open('C:\\Users\\ryanc\\Google Drive\\Coding\\Projects\\star_wars\\data\\guildtoons.txt','w')
+file.write(',')
+for i in links:
+    if 'Chirrut' in i:
+        file.write('Chirrut Imwe,')
+    else:
+        file.write(i+',')
+file.write('\n')
+
+
 #Collect guild members
 #x=session.get('https://swgoh.gg/g/602/empire-of-heroes/')
-
-x=open('C:\\Users\\burkhr\\Desktop\\guildpage.txt','r')
-
-mlist = BeautifulSoup(x.read(),'html.parser')
-
-mlist2=mlist.find_all('td','footable-first-visible')
-
-members=[]
-for i in mlist2:
-    members.append(i.a.get('href'))
-
-for q in members:
+#
+#mlist = BeautifulSoup(x.text,'html.parser')
+#
+#mlist2=mlist.find_all('td')
+#
+#mlist3=[]
+#
+#for i in mlist2:
+#    if i.a:
+#        mlist3.append(i.a.get('href'))
+#    else:
+#        pass
+#
+#members=[]
+#for i in mlist2:
+#    if i.a:
+#        members.append(i.a.strong.text)
+#    else:
+#        pass
+mlist3=['/u/vomz/']
+for q in mlist3:
     mem = q.split('/')[2]
     
     r = session.get('https://swgoh.gg'+q+'collection')
         
-    
     # Translate the web page for use in BeautifulSoup
     collection = BeautifulSoup(r.text,'html.parser')
     
@@ -40,7 +70,11 @@ for q in members:
     # Create links for each character unlocked
     links = []
     for i in range(0,num_chars):
-    	links.append(toons[i].find_all('a','char-portrait-full-link')[0].get('href'))
+        links.append(toons[i].find_all('a','char-portrait-full-link')[0].get('href'))
+        try:
+            dicti[toons[i].find_all('a','char-portrait-full-link')[0].img.get('alt')].append(mem)
+        except:
+            pass
     
     #Define needed lists 
     toons=[]
@@ -58,7 +92,7 @@ for q in members:
     # Collect information about each of the characters 
     for i in range(0,len(links)):
         page=session.get('https://swgoh.gg/'+links[i])
-        character=BeautifulSoup(page.read(),'html.parser')
+        character=BeautifulSoup(page.text,'html.parser')
         
         # name
         if 'Chirrut' in character.find_all('a','pc-char-overview-name')[0].text:
@@ -93,21 +127,24 @@ for q in members:
 # Write gear and other information to text files
     print 'Writing data.......'
 
-    file = open('Data/guildtoons.txt','a+')
+    file = open('C:\\Users\\ryanc\\Google Drive\\Coding\\Projects\\star_wars\\data\\guildtoons.txt','a+')
     file.write(mem+',')
     for i in range(0,len(toons)):
-    	file.write(toons[i]+",")
+            try:
+                if mem in dicti[toons[i]]:
+                    place=[j for j,x in enumerate(toons) if x == "%s" % toons[i]]
+                    place = place[0]
+                    file.write(stars[place]+',')
+                else:
+                    file.write(',')
+            except:
+                file.write(',')
+
     file.write('\n')
     file.close()
 
 
 
-    file = open('C:\\Users\\burkhr\\Desktop\\guildstars.txt','a+')
-    file.write(mem+',')
-    for i in range(0,len(stars)):
-    	file.write(stars[i]+",")
-    file.write('\n')
-    file.close()
 
 # print length the file took to run
 print("--- %s seconds ---" % (time.time() - start_time))

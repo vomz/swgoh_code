@@ -7,7 +7,6 @@ import requests
 from bs4 import BeautifulSoup as Soup
 from pprint import pprint
 
-
 def timeit(method):
     def timed(*args, **kw):
         ts = time.time()
@@ -61,15 +60,20 @@ class Collections:
 
     @property
     def missing_toons(self):
-        return [toon for toon in self.toons if toon.star == 0]
+        return self.owned_toons(star=0, exact=True)
 
 
 def main():
+    '''
+    Demo
+    :return:
+    '''
     user = Collections('w0m')
     print(user.num_toons)
     print(len(user.owned_toons(star=5, exact=True)))
     print(pprint(user.owned_toons(star=5, exact=True)))
     print(len(user.owned_toons()))
+    print(len(user.missing_toons))
 
 
 if __name__ == "__main__":

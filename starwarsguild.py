@@ -14,15 +14,18 @@ names=collection.find_all("li","media list-group-item p-0 character")
 
 toons=[]
 
-links = []
+linkx = []
 for i in range(0,len(names)):
-    links.append(names[i].img.get('alt'))
+    if 'Chirrut' in names[i].img.get('alt'):
+        linkx.append('Chirrut Imwe')
+    else:
+        linkx.append(names[i].img.get('alt'))
 
-dicti={key:[] for key in links}
+dicti={key:[] for key in linkx}
     
 file = open('C:\\Users\\ryanc\\Google Drive\\Coding\\Projects\\star_wars\\data\\guildtoons.txt','w')
 file.write(',')
-for i in links:
+for i in linkx:
     if 'Chirrut' in i:
         file.write('Chirrut Imwe,')
     else:
@@ -31,27 +34,27 @@ file.write('\n')
 
 
 #Collect guild members
-#x=session.get('https://swgoh.gg/g/602/empire-of-heroes/')
-#
-#mlist = BeautifulSoup(x.text,'html.parser')
-#
-#mlist2=mlist.find_all('td')
-#
-#mlist3=[]
-#
-#for i in mlist2:
-#    if i.a:
-#        mlist3.append(i.a.get('href'))
-#    else:
-#        pass
-#
-#members=[]
-#for i in mlist2:
-#    if i.a:
-#        members.append(i.a.strong.text)
-#    else:
-#        pass
-mlist3=['/u/vomz/']
+x=session.get('https://swgoh.gg/g/602/empire-of-heroes/')
+
+mlist = BeautifulSoup(x.text,'html.parser')
+
+mlist2=mlist.find_all('td')
+
+mlist3=[]
+
+for i in mlist2:
+    if i.a:
+        mlist3.append(i.a.get('href'))
+    else:
+        pass
+
+members=[]
+for i in mlist2:
+    if i.a:
+        members.append(i.a.strong.text)
+    else:
+        pass
+#mlist3=['/u/vomz/']
 for q in mlist3:
     mem = q.split('/')[2]
     
@@ -60,7 +63,7 @@ for q in mlist3:
     # Translate the web page for use in BeautifulSoup
     collection = BeautifulSoup(r.text,'html.parser')
     
-    print 'Collecting characters.......'
+    print 'Collecting '+mem+'\'s characters.......'
     # collect and organize the characters that are unlocked
     toons=collection.find_all("div","col-xs-6 col-sm-3 col-md-3 col-lg-2")
     missing_light = len(collection.find_all("div","collection-char collection-char-missing collection-char-light-side"))
@@ -87,7 +90,7 @@ for q in mlist3:
     skill_levels=[]
     category=[]
     
-    print 'Gathering character data.......'
+    print 'Gathering '+mem+'\'s character data.......'
     
     # Collect information about each of the characters 
     for i in range(0,len(links)):
@@ -124,24 +127,22 @@ for q in mlist3:
 
 
 
-# Write gear and other information to text files
+    # Write gear and other information to text files
     print 'Writing data.......'
+    
 
-    file = open('C:\\Users\\ryanc\\Google Drive\\Coding\\Projects\\star_wars\\data\\guildtoons.txt','a+')
+    file=open('C:\\Users\\ryanc\\Google Drive\\Coding\\Projects\\star_wars\\data\\guildtoons.txt','a+')
     file.write(mem+',')
-    for i in range(0,len(toons)):
-            try:
-                if mem in dicti[toons[i]]:
-                    place=[j for j,x in enumerate(toons) if x == "%s" % toons[i]]
-                    place = place[0]
-                    file.write(stars[place]+',')
-                else:
-                    file.write(',')
-            except:
-                file.write(',')
-
+    for j in linkx:
+        if mem in dicti[j]:
+            place = [q for q,ax in enumerate(toons) if ax == j]
+            place=place[0]
+            file.write(str(stars[place])+',')
+        else:
+            file.write(',')
     file.write('\n')
     file.close()
+
 
 
 

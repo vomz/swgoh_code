@@ -187,7 +187,7 @@ msg['BCC'] = 'rcburky@gmail.com'
 # 	server.ehlo()
 # 	server.starttls()
 # 	server.ehlo()
-# 	server.login('rcburky@gmail.com','1rznnmhcbtllJ@')
+# 	server.login('rcburky@gmail.com','')
 # 	# sendmail function takes 3 arguments: sender's address, recipient's address
 # 	# and message to send - here it is sent as one string.
 # 	server.sendmail(sender, recipient, msg.as_string())
@@ -320,7 +320,7 @@ server = smtplib.SMTP('smtp.gmail.com:587')
 server.ehlo()
 server.starttls()
 server.ehlo()
-server.login('rcburky@gmail.com','1rznnmhcbtllJ@')
+server.login('rcburky@gmail.com','')
 # sendmail function takes 3 arguments: sender's address, recipient's address
 # and message to send - here it is sent as one string.
 server.sendmail(sender, recipient, msg.as_string())
@@ -561,7 +561,7 @@ server.quit()
 # 	server.ehlo()
 # 	server.starttls()
 # 	server.ehlo()
-# 	server.login('rcburky@gmail.com','1rznnmhcbtllJ@')
+# 	server.login('rcburky@gmail.com','')
 # 	# sendmail function takes 3 arguments: sender's address, recipient's address
 # 	# and message to send - here it is sent as one string.
 # 	server.sendmail(sender, recipient, msg.as_string())

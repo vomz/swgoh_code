@@ -1,0 +1,217 @@
+15,5,Health,Transmitter,5.88%,Offense,Defense,Health,Health,Speed,1.47%,969,1.64%,3
+15,5,Health,Transmitter,5.88%,Offense,Speed,Health,Defense,Potency,10,0.59%,7,1.29%
+15,5,Health,Transmitter,5.88%,Offense,Speed,Offense,Defense,Protection,3,0.36%,8,2.02%
+15,5,Health,Transmitter,5.88%,Offense,Potency,Speed,Health,Critical Chance,1.33%,4,347,1.38%
+15,5,Health,Transmitter,5.88%,Offense,Defense,Protection,Critical Chance,Protection,5,1.74%,1.33%,754
+15,5,Health,Transmitter,5.88%,Offense,Health,Speed,Offense,Protection,2.62%,4,78,2.89%
+15,5,Defense,Transmitter,5.88%,Offense,Defense,Tenacity,Health,Speed,15,1.65%,242,5
+15,5,Crit,Transmitter,5.88%,Offense,Tenacity,Offense,Defense,Potency,2.81%,78,3.06%,2.55%
+15,5,Crit,Transmitter,5.88%,Offense,Tenacity,Offense,Protection,Health,4.95%,32,700,309
+15,5,Crit,Transmitter,5.88%,Offense,Speed,Defense,Protection,Critical Chance,8,17,2.01%,1.34%
+15,5,Crit,Transmitter,5.88%,Offense,Defense,Offense,Speed,Tenacity,0.9%,29,3,1.47%
+15,5,Crit,Transmitter,5.88%,Offense,Offense,Potency,Protection,Defense,85,1.88%,1.14%,1.51%
+15,5,Crit,Transmitter,5.88%,Offense,Potency,Tenacity,Health,Protection,1.26%,1.17%,0.93%,2.02%
+15,5,Crit,Transmitter,5.88%,Offense,Defense,Speed,Health,Protection,16,9,355,1.94%
+15,5,Crit,Transmitter,5.88%,Offense,Health,Offense,Critical Chance,Defense,315,94,1.96%,8
+15,5,Crit,Transmitter,5.88%,Offense,Tenacity,Speed,Defense,Critical Chance,2.13%,13,9,1.12%
+15,5,Crit,Transmitter,5.88%,Offense,Potency,Critical Chance,Offense,Protection,1.89%,4.87%,33,485
+15,5,Crit,Transmitter,5.88%,Offense,Tenacity,Offense,Health,Defense,1.94%,26,1.06%,1.69%
+15,5,Crit,Transmitter,5.88%,Offense,Critical Chance,Health,Defense,Speed,1.26%,0.85%,1.67%,3
+15,5,Crit,Transmitter,5.88%,Offense,Speed,Health,Health,Protection,3,0.68%,244,1.9%
+15,5,Crit,Transmitter,5.88%,Offense,Critical Chance,Protection,Health,Protection,1.92%,692,345,1.61%
+15,5,Crit,Transmitter,5.88%,Offense,Health,Potency,Protection,Critical Chance,0.85%,5.3%,1197,2.24%
+15,5,Crit,Transmitter,5.88%,Offense,Protection,Speed,Offense,Health,4.29%,15,26,0.61%
+15,5,Crit,Transmitter,5.88%,Offense,Speed,Potency,Critical Chance,Tenacity,4,2.21%,1.98%,1.43%
+15,5,Crit,Transmitter,5.88%,Offense,Defense,Health,Defense,Speed,7,378,1.42%,5
+15,5,Crit,Transmitter,5.88%,Offense,Tenacity,Speed,Potency,Defense,3.99%,11,1.17%,5
+15,5,Crit,Transmitter,5.88%,Offense,Critical Chance,Protection,Tenacity,Offense,5.05%,624,1.8%,41
+15,5,Crit,Transmitter,5.88%,Offense,Defense,Offense,Speed,Critical Chance,7,33,4,1.44%
+15,5,Crit,Transmitter,5.88%,Offense,Protection,Speed,Protection,Tenacity,1.52%,12,540,2.14%
+15,5,Crit,Transmitter,5.88%,Offense,Speed,Tenacity,Potency,Defense,8,1.46%,1.9%,0.98%
+15,5,Tenacity,Transmitter,5.88%,Offense,Speed,Critical Chance,Defense,Health,4,1.3%,0.98%,277
+15,5,Potency,Transmitter,5.88%,Offense,Defense,Protection,Critical Chance,Potency,7,739,1.55%,1.42%
+15,5,Potency,Transmitter,5.88%,Offense,Protection,Offense,Health,Speed,622,42,0.63%,5
+15,5,Potency,Transmitter,5.88%,Offense,Critical Chance,Potency,Speed,Tenacity,5.02%,1.72%,5,2.14%
+15,5,Health,Receiver,23.5%,Protection,Defense,Offense,Offense,Potency,2.29%,46,0.38%,1.31%
+15,5,Health,Receiver,23.5%,Protection,Potency,Critical Chance,Health,Speed,1.98%,1.2%,230,5
+15,5,Health,Receiver,30,Speed,Protection,Health,Critical Chance,Defense,1.41%,1%,2.14%,6
+15,5,Health,Receiver,30,Speed,Potency,Tenacity,Offense,Protection,2.83%,1.64%,31,1.27%
+15,5,Health,Receiver,30,Speed,Health,Tenacity,Critical Chance,Defense,0.65%,1.13%,1.41%,6
+15,5,Health,Receiver,30,Speed,Protection,Health,Defense,Health,1579,387,1.27%,0.57%
+15,5,Defense,Receiver,30,Speed,Defense,Critical Chance,Defense,Tenacity,3.89%,1.46%,5,2.08%
+15,5,Defense,Receiver,30,Speed,Protection,Tenacity,Protection,Defense,1968,1.56%,1.83%,1.32%
+15,5,Crit,Receiver,30,Speed,Potency,Critical Chance,Defense,Protection,3.63%,1.16%,1.13%,796
+15,5,Crit,Receiver,5.88%,Health,Speed,Protection,Critical Chance,Offense,5,1.27%,7.46%,74
+15,5,Crit,Receiver,30,Speed,Tenacity,Protection,Defense,Health,3.04%,602,6,0.87%
+15,5,Crit,Receiver,30,Speed,Offense,Critical Chance,Protection,Health,0.51%,1.26%,1.84%,1.01%
+15,5,Crit,Receiver,5.88%,Offense,Defense,Critical Chance,Health,Potency,7,1.79%,319,2.22%
+15,5,Crit,Receiver,11.75%,Defense,Protection,Critical Chance,Potency,Offense,1.48%,1.54%,1.37%,46
+15,5,Crit,Receiver,5.88%,Offense,Potency,Defense,Offense,Speed,2.02%,23,32,5
+15,5,Crit,Receiver,30,Speed,Health,Defense,Protection,Defense,1.67%,5,451,1.52%
+15,5,Crit,Receiver,30,Speed,Offense,Protection,Health,Potency,56,600,308,2.16%
+15,5,Crit,Receiver,5.88%,Offense,Defense,Tenacity,Critical Chance,Health,5,1.73%,1.77%,281
+15,5,Crit,Receiver,30,Speed,Potency,Protection,Critical Chance,Defense,1.91%,574,2.04%,9
+15,5,Crit,Receiver,30,Speed,Defense,Protection,Defense,Protection,1.11%,772,7,1.12%
+15,5,Crit,Receiver,30,Speed,Potency,Health,Offense,Tenacity,2.17%,233,43,1.79%
+15,5,Crit,Receiver,30,Speed,Critical Chance,Tenacity,Health,Protection,2.03%,2.22%,364,713
+15,5,Crit,Receiver,23.5%,Protection,Health,Speed,Offense,Critical Chance,0.74%,5,0.28%,1.42%
+15,5,Crit,Receiver,23.5%,Protection,Tenacity,Protection,Offense,Potency,2.91%,548,28,1.92%
+15,5,Crit,Receiver,30,Speed,Offense,Potency,Protection,Defense,0.43%,4.27%,485,1.09%
+15,5,Crit,Receiver,30,Speed,Protection,Potency,Health,Critical Chance,3.32%,1.95%,0.91%,1.74%
+15,5,Crit,Receiver,5.88%,Offense,Offense,Protection,Potency,Critical Chance,131,4.23%,1.22%,1.5%
+15,5,Crit,Receiver,23.5%,Protection,Offense,Health,Potency,Tenacity,0.69%,249,1.39%,1.44%
+15,5,Crit,Receiver,30,Speed,Health,Critical Chance,Potency,Offense,654,4.2%,1.41%,41
+15,5,Crit,Receiver,11.75%,Defense,Critical Chance,Speed,Potency,Health,4.81%,11,3.27%,0.86%
+15,5,Tenacity,Receiver,30,Speed,Potency,Offense,Health,Health,3.13%,0.32%,0.57%,303
+15,5,Tenacity,Receiver,30,Speed,Tenacity,Offense,Protection,Health,1.47%,0.28%,535,0.78%
+15,5,Tenacity,Receiver,30,Speed,Health,Defense,Defense,Offense,375,1.43%,6,0.42%
+15,5,Offense,Receiver,30,Speed,Offense,Critical Chance,Protection,Protection,0.81%,1.47%,1.88%,420
+15,5,Potency,Receiver,30,Speed,Protection,Critical Chance,Offense,Potency,3.67%,3.84%,0.49%,1.3%
+15,5,Health,Processor,11.75%,Defense,Defense,Health,Offense,Protection,15,0.84%,24,792
+15,5,Health,Processor,11.75%,Defense,Potency,Offense,Health,Protection,3.32%,39,0.87%,2.11%
+15,5,Health,Processor,11.75%,Defense,Speed,Protection,Health,Offense,12,611,1.74%,78
+15,5,Health,Processor,11.75%,Defense,Speed,Potency,Defense,Protection,7,2.77%,5,669
+15,5,Health,Processor,11.75%,Defense,Offense,Potency,Offense,Health,0.34%,1.45%,24,1.06%
+15,5,Health,Processor,11.75%,Defense,Protection,Tenacity,Speed,Protection,1760,3.26%,9,2.09%
+15,5,Health,Processor,11.75%,Defense,Health,Speed,Tenacity,Defense,364,3,1.8%,1.61%
+15,5,Health,Processor,11.75%,Defense,Critical Chance,Offense,Speed,Health,2.86%,68,3,231
+15,5,Health,Processor,11.75%,Defense,Defense,Health,Health,Speed,11,1067,0.84%,5
+15,5,Defense,Processor,11.75%,Defense,Critical Chance,Protection,Health,Potency,2.91%,479,1020,2.21%
+15,5,Defense,Processor,11.75%,Defense,Defense,Speed,Protection,Health,15,6,3.55%,0.56%
+15,5,Crit,Processor,11.75%,Defense,Offense,Speed,Tenacity,Protection,63,8,1.62%,1.47%
+15,5,Crit,Processor,11.75%,Defense,Speed,Health,Offense,Tenacity,3,379,0.54%,1.45%
+15,5,Crit,Processor,11.75%,Defense,Speed,Offense,Potency,Tenacity,8,28,1.94%,1.9%
+15,5,Crit,Processor,11.75%,Defense,Potency,Protection,Tenacity,Defense,2.77%,1.66%,2.2%,8
+15,5,Crit,Processor,11.75%,Defense,Health,Protection,Speed,Protection,1.12%,6.81%,10,427
+15,5,Crit,Processor,11.75%,Defense,Health,Tenacity,Defense,Health,693,1.86%,7,0.73%
+15,5,Crit,Processor,11.75%,Defense,Offense,Health,Offense,Critical Chance,68,690,0.42%,1.39%
+15,5,Crit,Processor,11.75%,Defense,Offense,Critical Chance,Speed,Potency,64,2.6%,3,1.62%
+15,5,Crit,Processor,11.75%,Defense,Health,Speed,Offense,Tenacity,1.68%,13,0.29%,1.98%
+15,5,Crit,Processor,11.75%,Defense,Speed,Defense,Offense,Protection,9,5,0.37%,694
+15,5,Crit,Processor,11.75%,Defense,Speed,Defense,Tenacity,Health,9,6,1.79%,282
+15,5,Crit,Processor,11.75%,Defense,Critical Chance,Protection,Health,Protection,3.75%,3.2%,248,530
+15,5,Crit,Processor,11.75%,Defense,Speed,Protection,Offense,Offense,9,454,0.45%,34
+15,5,Crit,Processor,11.75%,Defense,Protection,Protection,Defense,Health,3.31%,1117,5,337
+15,5,Crit,Processor,11.75%,Defense,Defense,Speed,Protection,Offense,9,12,1.33%,81
+15,5,Crit,Processor,11.75%,Defense,Speed,Critical Chance,Protection,Health,8,3.88%,1.69%,369
+15,5,Crit,Processor,11.75%,Defense,Health,Offense,Offense,Critical Chance,1.05%,31,0.5%,2.18%
+15,5,Crit,Processor,11.75%,Defense,Health,Offense,Speed,Health,361,27,5,0.59%
+15,5,Crit,Processor,11.75%,Defense,Tenacity,Offense,Defense,Offense,1.12%,35,5,0.29%
+15,5,Potency,Processor,11.75%,Defense,Health,Potency,Offense,Protection,0.69%,1.78%,0.28%,812
+15,5,Potency,Processor,11.75%,Defense,Offense,Protection,Offense,Speed,35,528,0.36%,5
+15,5,Potency,Processor,11.75%,Defense,Protection,Health,Speed,Defense,595,247,5,5
+15,5,Health,Holo-Array,23.5%,Protection,Offense,Potency,Speed,Protection,0.5%,1.49%,4,452
+15,5,Health,Holo-Array,36%,Critical Damage,Tenacity,Health,Offense,Offense,2.21%,375,29,0.52%
+15,5,Health,Holo-Array,36%,Critical Damage,Health,Speed,Offense,Defense,2.21%,4,0.44%,5
+15,5,Health,Holo-Array,36%,Critical Damage,Speed,Offense,Potency,Tenacity,3,34,1.32%,1.45%
+15,5,Health,Holo-Array,36%,Critical Damage,Health,Potency,Defense,Defense,0.84%,1.68%,0.93%,7
+15,5,Health,Holo-Array,12%,Critical Chance,Health,Health,Offense,Potency,233,0.59%,0.35%,1.58%
+15,5,Health,Holo-Array,12%,Critical Chance,Tenacity,Health,Protection,Offense,1.46%,379,1.15%,32
+15,5,Health,Holo-Array,12%,Critical Chance,Defense,Protection,Speed,Offense,1.41%,1791,4,121
+15,5,Health,Holo-Array,5.88%,Health,Offense,Protection,Defense,Tenacity,40,695,6,1.32%
+15,5,Crit,Holo-Array,36%,Critical Damage,Defense,Offense,Defense,Protection,8,32,1.31%,1.97%
+15,5,Crit,Holo-Array,12%,Critical Chance,Health,Offense,Potency,Tenacity,1.27%,0.62%,1.5%,2.17%
+15,5,Crit,Holo-Array,36%,Critical Damage,Health,Defense,Defense,Protection,1.1%,8,1.1%,1.59%
+15,5,Crit,Holo-Array,11.75%,Defense,Health,Offense,Health,Speed,249,1.25%,0.82%,4
+15,5,Crit,Holo-Array,36%,Critical Damage,Health,Tenacity,Defense,Potency,1.83%,1.5%,6,1.14%
+15,5,Crit,Holo-Array,36%,Critical Damage,Protection,Defense,Offense,Offense,1.13%,1.38%,0.38%,45
+15,5,Crit,Holo-Array,5.88%,Health,Tenacity,Protection,Critical Chance,Potency,1.49%,1.66%,1.75%,1.7%
+15,5,Crit,Holo-Array,36%,Critical Damage,Defense,Health,Protection,Potency,26,1.05%,3.25%,3.85%
+15,5,Crit,Holo-Array,36%,Critical Damage,Offense,Speed,Health,Tenacity,0.53%,18,396,1.71%
+15,5,Crit,Holo-Array,12%,Critical Chance,Defense,Health,Potency,Protection,2.33%,569,2.16%,1.67%
+15,5,Crit,Holo-Array,23.5%,Protection,Speed,Defense,Tenacity,Health,7,1.63%,2.09%,299
+15,5,Crit,Holo-Array,36%,Critical Damage,Defense,Potency,Offense,Health,7,1.94%,0.35%,0.97%
+15,5,Crit,Holo-Array,23.5%,Protection,Defense,Critical Chance,Tenacity,Health,1.39%,1.59%,1.56%,393
+15,5,Crit,Holo-Array,5.88%,Offense,Tenacity,Health,Offense,Critical Chance,1.92%,0.87%,35,1.16%
+15,5,Crit,Holo-Array,12%,Critical Chance,Tenacity,Offense,Protection,Health,3.56%,0.38%,1834,731
+15,5,Crit,Holo-Array,5.88%,Offense,Offense,Health,Speed,Health,71,425,5,1.06%
+15,5,Potency,Holo-Array,36%,Critical Damage,Tenacity,Offense,Protection,Protection,5.39%,46,556,1.4%
+15,5,Potency,Holo-Array,36%,Critical Damage,Offense,Protection,Potency,Speed,24,704,1.46%,4
+15,5,Potency,Holo-Array,36%,Critical Damage,Protection,Speed,Offense,Defense,736,5,0.55%,0.93%
+15,5,Potency,Holo-Array,12%,Critical Chance,Potency,Offense,Protection,Health,1.47%,37,2.05%,1.02%
+15,5,Health,Data-Bus,23.5%,Protection,Speed,Potency,Health,Critical Chance,9,5.35%,1.72%,1.57%
+15,5,Health,Data-Bus,23.5%,Protection,Health,Offense,Protection,Potency,404,0.43%,826,1.56%
+15,5,Health,Data-Bus,5.88%,Health,Protection,Speed,Offense,Defense,2.13%,15,67,1.54%
+15,5,Health,Data-Bus,5.88%,Health,Protection,Protection,Offense,Critical Chance,706,1.91%,32,1.23%
+15,5,Health,Data-Bus,5.88%,Health,Offense,Potency,Defense,Protection,27,4.68%,1.56%,1.78%
+15,5,Health,Data-Bus,5.88%,Health,Defense,Protection,Speed,Protection,1.32%,523,21,2.05%
+15,5,Health,Data-Bus,23.5%,Protection,Speed,Defense,Critical Chance,Potency,10,5,1.13%,1.5%
+15,5,Defense,Data-Bus,23.5%,Protection,Critical Chance,Protection,Tenacity,Speed,1.6%,2453,3.86%,4
+15,5,Defense,Data-Bus,5.88%,Health,Speed,Offense,Critical Chance,Health,8,1%,3.4%,630
+15,5,Crit,Data-Bus,23.5%,Protection,Health,Offense,Health,Potency,897,41,1.03%,1.75%
+15,5,Crit,Data-Bus,23.5%,Protection,Protection,Offense,Defense,Speed,1071,70,14,5
+15,5,Crit,Data-Bus,23.5%,Protection,Health,Protection,Tenacity,Potency,353,631,1.47%,1.66%
+15,5,Crit,Data-Bus,23.5%,Protection,Critical Chance,Potency,Defense,Protection,4.31%,1.32%,8,593
+15,5,Crit,Data-Bus,5.88%,Health,Critical Chance,Speed,Potency,Defense,3.56%,4,1.62%,0.96%
+15,5,Crit,Data-Bus,23.5%,Protection,Potency,Offense,Speed,Protection,3.17%,24,3,445
+15,5,Crit,Data-Bus,5.88%,Health,Speed,Offense,Health,Defense,8,0.71%,291,9
+15,5,Crit,Data-Bus,23.5%,Protection,Offense,Critical Chance,Health,Tenacity,70,3.24%,1079,1.15%
+15,5,Crit,Data-Bus,5.88%,Health,Speed,Tenacity,Health,Offense,10,3.22%,418,28
+15,5,Crit,Data-Bus,23.5%,Protection,Critical Chance,Speed,Health,Potency,4.35%,3,0.84%,1.66%
+15,5,Crit,Data-Bus,5.88%,Health,Critical Chance,Offense,Tenacity,Protection,3.4%,0.3%,1.94%,751
+15,5,Crit,Data-Bus,23.5%,Protection,Defense,Health,Protection,Tenacity,2.21%,242,627,1.66%
+15,5,Crit,Data-Bus,23.5%,Protection,Speed,Offense,Tenacity,Defense,8,0.43%,1.59%,1.42%
+15,5,Crit,Data-Bus,23.5%,Protection,Potency,Offense,Defense,Protection,1.63%,0.37%,1.66%,545
+15,5,Crit,Data-Bus,23.5%,Protection,Offense,Critical Chance,Protection,Potency,0.45%,1.44%,714,1.86%
+15,5,Crit,Data-Bus,23.5%,Protection,Health,Protection,Tenacity,Critical Chance,1.09%,600,2.05%,1.56%
+15,5,Crit,Data-Bus,23.5%,Protection,Protection,Defense,Health,Potency,2152,1.18%,313,1.54%
+15,5,Crit,Data-Bus,23.5%,Protection,Protection,Offense,Offense,Speed,1439,68,0.41%,3
+15,5,Crit,Data-Bus,5.88%,Health,Defense,Speed,Offense,Defense,2.33%,9,0.79%,13
+15,5,Crit,Data-Bus,23.5%,Protection,Defense,Speed,Protection,Health,3.15%,5,466,0.7%
+15,5,Crit,Data-Bus,23.5%,Protection,Protection,Speed,Offense,Defense,1063,3,0.34%,9
+15,5,Crit,Data-Bus,5.88%,Health,Defense,Offense,Critical Chance,Tenacity,15,71,1.74%,1.53%
+15,5,Crit,Data-Bus,23.5%,Protection,Health,Speed,Tenacity,Defense,1.83%,8,1.37%,8
+15,5,Potency,Data-Bus,5.88%,Health,Defense,Protection,Defense,Offense,1.26%,1.57%,5,25
+15,5,Potency,Data-Bus,5.88%,Health,Potency,Speed,Health,Critical Chance,2.88%,9,255,1.31%
+15,5,Potency,Data-Bus,23.5%,Protection,Defense,Defense,Protection,Critical Chance,13,1.24%,514,1.34%
+15,5,Health,Multiplexer,23.5%,Protection,Offense,Health,Critical Chance,Protection,31,229,1.39%,678
+15,5,Health,Multiplexer,23.5%,Protection,Offense,Defense,Offense,Defense,0.49%,1.3%,41,8
+15,5,Health,Multiplexer,23.5%,Protection,Critical Chance,Health,Defense,Protection,3.26%,0.6%,1.45%,604
+15,5,Health,Multiplexer,24%,Potency,Protection,Offense,Speed,Health,3.63%,97,5,0.59%
+15,5,Health,Multiplexer,24%,Potency,Tenacity,Defense,Protection,Offense,2.14%,5,1.95%,0.41%
+15,5,Health,Multiplexer,5.88%,Health,Speed,Defense,Protection,Health,8,1.35%,769,393
+15,5,Health,Multiplexer,24%,Potency,Protection,Offense,Protection,Offense,3.27%,0.73%,611,37
+15,5,Health,Multiplexer,5.88%,Offense,Defense,Speed,Potency,Protection,22,5,2.2%,1.52%
+15,5,Health,Multiplexer,23.5%,Protection,Offense,Speed,Critical Chance,Defense,61,9,1.79%,8
+15,5,Health,Multiplexer,11.75%,Defense,Health,Defense,Potency,Speed,1.63%,5,1.91%,5
+15,5,Health,Multiplexer,5.88%,Offense,Protection,Speed,Defense,Offense,1.8%,15,6,28
+15,5,Health,Multiplexer,23.5%,Protection,Defense,Potency,Critical Chance,Health,5,1.91%,2.03%,1.02%
+15,5,Crit,Multiplexer,23.5%,Protection,Tenacity,Health,Offense,Defense,1.44%,1.11%,0.48%,6
+15,5,Crit,Multiplexer,23.5%,Protection,Critical Chance,Protection,Potency,Speed,1.88%,489,1.2%,3
+15,5,Crit,Multiplexer,5.88%,Health,Protection,Critical Chance,Offense,Protection,532,5.51%,34,1.59%
+15,5,Crit,Multiplexer,23.5%,Protection,Offense,Health,Defense,Critical Chance,39,0.93%,5,1.96%
+15,5,Crit,Multiplexer,23.5%,Protection,Offense,Defense,Speed,Tenacity,0.8%,7,4,1.57%
+15,5,Crit,Multiplexer,24%,Potency,Tenacity,Speed,Defense,Defense,6.48%,3,6,1.58%
+15,5,Crit,Multiplexer,5.88%,Offense,Critical Chance,Defense,Protection,Tenacity,3.1%,1.22%,1.84%,1.72%
+15,5,Crit,Multiplexer,5.88%,Offense,Health,Critical Chance,Protection,Health,584,3.73%,613,0.58%
+15,5,Crit,Multiplexer,24%,Potency,Offense,Offense,Health,Protection,88,0.4%,265,1.27%
+15,5,Crit,Multiplexer,24%,Potency,Health,Offense,Defense,Speed,1.1%,0.37%,3%,13
+15,5,Crit,Multiplexer,11.75%,Defense,Critical Chance,Potency,Protection,Health,1.63%,1.44%,619,0.85%
+15,5,Crit,Multiplexer,23.5%,Protection,Offense,Defense,Protection,Tenacity,0.42%,22,1283,1.99%
+15,5,Crit,Multiplexer,11.75%,Defense,Speed,Protection,Protection,Defense,8,1.31%,703,8
+15,5,Crit,Multiplexer,5.88%,Offense,Offense,Tenacity,Critical Chance,Protection,44,2.02%,1.4%,765
+15,5,Crit,Multiplexer,23.5%,Protection,Protection,Offense,Speed,Defense,1087,0.35%,4,0.93%
+15,5,Crit,Multiplexer,23.5%,Protection,Speed,Health,Health,Potency,11,650,1.28%,1.89%
+15,5,Crit,Multiplexer,24%,Potency,Tenacity,Critical Chance,Defense,Protection,3.05%,1.89%,6,1.26%
+15,5,Crit,Multiplexer,23.5%,Protection,Health,Health,Speed,Offense,779,0.57%,4,0.32%
+15,5,Crit,Multiplexer,5.88%,Offense,Potency,Defense,Defense,Protection,1.79%,16,2.2%,1964
+15,5,Tenacity,Multiplexer,23.5%,Protection,Speed,Offense,Defense,Health,12,0.52%,5,330
+15,5,Tenacity,Multiplexer,5.88%,Health,Potency,Defense,Tenacity,Speed,1.26%,24,1.37%,3
+15,5,Potency,Multiplexer,24%,Potency,Protection,Offense,Tenacity,Speed,1.45%,25,2.11%,4
+15,5,Potency,Multiplexer,23.5%,Protection,Offense,Critical Chance,Offense,Defense,73,2.16%,0.49%,6
+15,5,Speed,Multiplexer,24%,Potency,Critical Chance,Speed,Defense,Protection,4.43%,11,1.49%,773
+15,1,Health,Transmitter,4%,Offense,Health,Protection,Health,Protection,527,506,0.66%,1.56%
+15,1,Crit,Transmitter,4%,Offense,Speed,Critical Chance,Defense,Offense,12,1.58%,0.78%,23
+15,1,Crit,Processor,8%,Defense,Offense,Speed,Health,Protection,32,13,0.56%,596
+15,1,Potency,Processor,8%,Defense,Speed,Offense,Critical Chance,Health,7,52,1.41%,225
+15,1,Health,Holo-Array,16%,Protection,Critical Chance,Defense,Protection,Health,1.92%,5,397,0.99%
+15,1,Health,Holo-Array,31.5%,Critical Damage,Speed,Offense,Defense,Potency,3,56,11,3.75%
+15,1,Crit,Holo-Array,31.5%,Critical Damage,Health,Protection,Defense,Health,1.52%,1.25%,1.19%,301
+15,1,Crit,Holo-Array,31.5%,Critical Damage,Critical Chance,Defense,Speed,Offense,3.08%,5,3,0.37%
+15,1,Crit,Holo-Array,31.5%,Critical Damage,Potency,Defense,Defense,Protection,1%,0.92%,4,1.08%
+15,1,Crit,Holo-Array,31.5%,Critical Damage,Speed,Defense,Offense,Potency,4,18,0.49%,1.51%
+15,1,Crit,Processor,7.75%,Defense,Protection,Speed,Protection,Health,1.28%,3,427,202
+15,1,Crit,Data-Bus,3.88%,Health,Offense,Tenacity,Health,Protection,20,0.81%,195,378
+15,1,Health,Receiver,1.88%,Offense,Critical Chance,Health,Protection,Defense,1.15%,0.42%,1%,0.65%
+15,1,Crit,Holo-Array,7.5%,Critical Chance,Speed,Health,Protection,Health,1,0.46%,159,170
+15,1,Crit,Multiplexer,7.5%,Protection,Offense,Health,Protection,Defense,10,0.27%,139,0.66%

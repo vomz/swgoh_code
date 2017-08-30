@@ -1,0 +1,95 @@
+Human, Clone Trooper, Galactic Republic
+Jedi, Galactic Republic
+Rebel
+Jedi, Galactic Republic
+Human, Jedi, Galactic Republic
+Human, Clone Trooper, Galactic Republic
+Human, Clone Trooper, Galactic Republic
+Human, Scoundrel, Rebel
+Human, Clone Trooper, Galactic Republic
+Human, Clone Trooper, Galactic Republic
+Human, Scoundrel, Rebel
+Sith
+Human, Sith, Empire
+Ewok
+Ewok
+Jawa
+Jedi, Galactic Republic
+Sith, Empire
+Human, Jedi, Galactic Republic, Fleet Commander
+Tusken
+Sith
+Rebel
+Droid, Scoundrel, Bounty Hunter
+Jawa
+Scoundrel, Bounty Hunter
+Droid
+Jedi, Galactic Republic
+Scoundrel, Rebel
+Rebel
+Empire
+Human, Resistance
+Empire
+Sith
+Droid
+Human, Empire, Fleet Commander
+Jawa
+Ewok
+Human, First Order
+Scoundrel, Bounty Hunter
+Jedi, Galactic Republic
+Jawa
+Droid, Rebel, Galactic Republic, Resistance
+Rebel, Fleet Commander
+Scoundrel, Bounty Hunter
+Jedi, Galactic Republic
+Nightsister, Separatist
+Human, Resistance
+Human, First Order
+Jedi, Galactic Republic
+Sith, Separatist
+Human, Resistance
+Human, Empire, Imperial Trooper
+Geonosian, Separatist
+Scoundrel, Separatist
+Human, First Order, Placeholder
+Jawa
+Empire, Imperial Trooper
+Human, Empire
+Nightsister
+Geonosian, Separatist
+Scoundrel, Galactic Republic
+Nightsister
+Empire, Imperial Trooper
+Geonosian, Separatist
+Human, First Order
+Nightsister
+Empire, Imperial Trooper
+Rebel
+Sith
+Human, Resistance
+Empire, Imperial Trooper
+Ewok
+Jedi, Galactic Republic
+Human, Empire, Imperial Trooper
+Jedi, Rebel, Phoenix
+Rebel, Phoenix
+Droid, Rebel, Phoenix
+Rebel, Phoenix
+Jedi, Rebel, Phoenix
+Rebel, Phoenix
+Droid, Separatist
+Rebel
+Sith
+Human, Rebel
+Empire
+Empire
+Rebel
+Sith
+Human, First Order
+Scoundrel, Bounty Hunter
+Nightsister
+Galactic Republic
+Jedi, Galactic Republic
+Rebel
+Rebel

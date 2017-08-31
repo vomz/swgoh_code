@@ -23,16 +23,21 @@ for i in range(0,len(names)):
 
 dicti={key:[] for key in linkx}
     
-file = open('C:\\Users\\ryanc\\Google Drive\\Coding\\Projects\\star_wars\\data\\guildtoons.txt','w')
+file = open('C:\\Users\\ryanc\\Google Drive\\Coding\\Projects\\star_wars\\data\\guildstars.txt','w')
+file2 = open('C:\\Users\\ryanc\\Google Drive\\Coding\\Projects\\star_wars\\data\\guildgearlevel.txt','w')
 file.write(',')
+file2.write(',')
 for i in linkx:
     if 'Chirrut' in i:
         file.write('Chirrut Imwe,')
+        file2.write('Chirrut Imwe,')
     else:
         file.write(i+',')
+        file2.write(i+',')
 file.write('\n')
-
-
+file2.write('\n')
+file.close()
+file2.close()
 #Collect guild members
 x=session.get('https://swgoh.gg/g/602/empire-of-heroes/')
 
@@ -75,7 +80,10 @@ for q in mlist3:
     for i in range(0,num_chars):
         links.append(toons[i].find_all('a','char-portrait-full-link')[0].get('href'))
         try:
-            dicti[toons[i].find_all('a','char-portrait-full-link')[0].img.get('alt')].append(mem)
+            if 'Chirrut' in toons[i].find_all('a','char-portrait-full-link')[0].img.get('alt'):
+                dicti['Chirrut Imwe'].append(mem)
+            else:
+                dicti[toons[i].find_all('a','char-portrait-full-link')[0].img.get('alt')].append(mem)
         except:
             pass
     
@@ -96,7 +104,7 @@ for q in mlist3:
     for i in range(0,len(links)):
         page=session.get('https://swgoh.gg/'+links[i])
         character=BeautifulSoup(page.text,'html.parser')
-        
+        gear_level.append(character.find_all('div','pc-heading')[0].text)
         # name
         if 'Chirrut' in character.find_all('a','pc-char-overview-name')[0].text:
             toons.append('Chirrut Imwe')
@@ -131,18 +139,23 @@ for q in mlist3:
     print 'Writing data.......'
     
 
-    file=open('C:\\Users\\ryanc\\Google Drive\\Coding\\Projects\\star_wars\\data\\guildtoons.txt','a+')
+    file=open('C:\\Users\\ryanc\\Google Drive\\Coding\\Projects\\star_wars\\data\\guildstars.txt','a+')
+    file2=open('C:\\Users\\ryanc\\Google Drive\\Coding\\Projects\\star_wars\\data\\guildgearlevel.txt','a+')
     file.write(mem+',')
+    file2.write(mem+',')
     for j in linkx:
         if mem in dicti[j]:
             place = [q for q,ax in enumerate(toons) if ax == j]
             place=place[0]
             file.write(str(stars[place])+',')
+            file2.write(str(gear_level[place])+',')
         else:
             file.write(',')
+            file2.write(',')
     file.write('\n')
+    file2.write('\n')
     file.close()
-
+    file2.close()
 
 
 

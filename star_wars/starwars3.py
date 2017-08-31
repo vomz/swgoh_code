@@ -196,8 +196,10 @@ msg['BCC'] = 'rcburky@gmail.com'
 
 # def arena():
 	#which toons are wanted
-toon=['Ahsoka Tano (Fulcrum)','Hera Syndulla','Ezra Bridger','Sabine Wren','Garazeb "Zeb" Orrelios','Kanan Jarrus','Jyn Erso','Cassian Andor','K-2SO','Chirrut Imwe','Baze Malbus']
+toon=['Cassian Andor']
+#'Ahsoka Tano (Fulcrum)','Jyn Erso','Cassian Andor','K-2SO','Chirrut Imwe'
 #opens and reads all files created by starwars.py and creates other variables that are needed
+#'Hera Syndulla','Ezra Bridger','Sabine Wren','Garazeb "Zeb" Orrelios','Kanan Jarrus'
 toons = open('Data/toons.txt','r')
 toons = map(str.strip,toons.readlines())
 levels = open('Data/levels.txt','r')
@@ -272,16 +274,23 @@ for i in range(0,len(toon)):
 
     team_gear2={}
     for key,val in final.items():
-        for keys,vals in gear[key].items():
-            try:
-                team_gear2[keys]=team_gear2[keys]+(vals*val)
-            except KeyError:
-                team_gear2[keys]=vals*val
+        try:
+            for keys,vals in gear[key].items():
+                try:
+                    team_gear2[keys]=team_gear2[keys]+(vals*val)
+                except KeyError:
+                    team_gear2[keys]=vals*val
+        except:
+            pass
     delta={}
     for k in range(0,len(toon)):
         g=[]
-        place=[j for j,x in enumerate(toons) if x == "%s" % toon[k]]
-        place = place[0]
+        try:
+            place=[j for j,x in enumerate(toons) if x == "%s" % toon[k]]
+            place = place[0]
+        except:
+            print toon[k]+' is not unlocked...'
+            break
         for j in range(0,len(gear_list[place])):
             g.append(str(gear_list[place][j])+': '+str(number_list[place][j]))
         delta[toon[k]]=g
@@ -315,16 +324,18 @@ email_body = MIMEText(body, 'plain')
 # Attach body into message container.
 msg.attach(email_body)
 
-# Send the message via local SMTP server.
-server = smtplib.SMTP('smtp.gmail.com:587')
-server.ehlo()
-server.starttls()
-server.ehlo()
-server.login('rcburky@gmail.com','1rznnmhcbtllJ@')
-# sendmail function takes 3 arguments: sender's address, recipient's address
-# and message to send - here it is sent as one string.
-server.sendmail(sender, recipient, msg.as_string())
-server.quit()
+print msg.as_string()
+#
+## Send the message via local SMTP server.
+#server = smtplib.SMTP('smtp.gmail.com:587')
+#server.ehlo()
+#server.starttls()
+#server.ehlo()
+#server.login('rcburky@gmail.com','')
+## sendmail function takes 3 arguments: sender's address, recipient's address
+## and message to send - here it is sent as one string.
+#server.sendmail(sender, recipient, msg.as_string())
+#server.quit()
 
 # def everything():
 # 	#opens and reads all files created by starwars.py and creates other variables that are needed

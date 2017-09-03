@@ -23,8 +23,8 @@ for i in range(0,len(names)):
 
 dicti={key:[] for key in linkx}
     
-file = open('C:\\Users\\ryanc\\Google Drive\\Coding\\Projects\\star_wars\\data\\guildstars.txt','w')
-file2 = open('C:\\Users\\ryanc\\Google Drive\\Coding\\Projects\\star_wars\\data\\guildgearlevel.txt','w')
+file = open('csv\\guildstars.txt','w')
+file2 = open('csv\\guildgearlevel.txt','w')
 file.write(',')
 file2.write(',')
 for i in linkx:
@@ -139,8 +139,8 @@ for q in mlist3:
     print 'Writing data.......'
     
 
-    file=open('C:\\Users\\ryanc\\Google Drive\\Coding\\Projects\\star_wars\\data\\guildstars.txt','a+')
-    file2=open('C:\\Users\\ryanc\\Google Drive\\Coding\\Projects\\star_wars\\data\\guildgearlevel.txt','a+')
+    file=open('csv\\guildstars.txt','a+')
+    file2=open('csv\\guildgearlevel.txt','a+')
     file.write(mem+',')
     file2.write(mem+',')
     for j in linkx:

@@ -1,9 +1,9 @@
 Commander Luke Skywalker
 R2-D2
 Qui-Gon Jinn
+Han Solo
 CC-2224 "Cody"
 Darth Vader
-Han Solo
 Darth Maul
 General Kenobi
 Kylo Ren
@@ -56,60 +56,60 @@ Sabine Wren
 Asajj Ventress
 Garazeb "Zeb" Orrelios
 Kanan Jarrus
+Ahsoka Tano (Fulcrum)
 Count Dooku
+Eeth Koth
 Resistance Trooper
+Cad Bane
 Death Trooper
 Shoretrooper
 Snowtrooper
-Cad Bane
+Jyn Erso
 Resistance Pilot
-Ahsoka Tano (Fulcrum)
-Eeth Koth
 Chopper
 Jawa
+Old Daka
 Director Krennic
 Hoth Rebel Scout
 Hera Syndulla
 Ezra Bridger
 Darth Nihilus
 General Veers
+Talia
+Cassian Andor
 Finn
 Magmatrooper
-Old Daka
-Poggle the Lesser
-Geonosian Soldier
-Clone Wars Chewbacca
-Talia
 Nute Gunray
-Geonosian Spy
+Poggle the Lesser
+Chirrut Imwe
+Geonosian Soldier
+K-2SO
+Clone Wars Chewbacca
 Hoth Rebel Soldier
-Jyn Erso
+Geonosian Spy
+Jedi Knight Guardian
 Nightsister Initiate
 Stormtrooper
-Jedi Knight Guardian
 Greedo
-Nightsister Acolyte
 IG-100 MagnaGuard
+Nightsister Acolyte
 Bistan
 Grand Admiral Thrawn
+Zam Wesell
+Sun Fac
 Scarif Rebel Pathfinder
 Coruscant Underworld Police
 Barriss Offee
+Lobot
 Paploo
 Logray
 Tusken Raider
 Imperial Super Commando
 Wicket
 Plo Koon
-Lobot
 Gar Saxon
 Sith Trooper
-Chirrut Imwe
-Zam Wesell
-Sun Fac
 Sith Assassin
-Cassian Andor
-K-2SO
 Bodhi Rook
 Mob Enforcer
 Kit Fisto

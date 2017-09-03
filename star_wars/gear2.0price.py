@@ -41,44 +41,6 @@ for h in range(0,len(toons)):
 file=open('output.csv','w')
 for key,value in gear_list.items():
 	file.write(str(key)+","+str(value)+"\n")
-	file.close()
 
+file.close()
 
-
-
-match(a16,[tracker.xlsx]Sheet1!$A$2:$N$2,0)
-
-
-match(B$1,[tracker.xlsx]Sheet1!$A$1:$A$140,0)
-
-
-
-RT	Rey	Finn	Poe
-2	0	0	2
-0	0	0	1
-0	0	1	1
-0	0	1	0
-0	0	0	0
-0	0	0	1
-0	0	0	0
-0	1	1	0
-0	2	0	0
-0	0	0	0
-0	0	0	0
-0	0	0	1
-0	0	0	0
-1	0	0	0
-1	0	2	0
-0	0	2	2
-0	0	3	0
-0	0	1	0
-0	0	0	0
-0	0	0	0
-1	0	0	2
-3	0	0	1
-0	0	0	0
-0	0	0	0
-0	0	0	0
-0	0	0	0
-1	0	0	0
-0	0	0	0

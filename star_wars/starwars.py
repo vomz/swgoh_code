@@ -1,6 +1,8 @@
+from __future__ import print_function
 import requests
 from bs4 import BeautifulSoup
 import time
+from sw_util import Collections
 
 #Record beginning time
 start_time = time.time()
@@ -14,19 +16,24 @@ r = session.get('https://swgoh.gg/u/vomz/collection')
 # Translate the web page for use in BeautifulSoup
 collection = BeautifulSoup(r.text,'html.parser')
 
-print 'Collecting characters.......'
+print('Collecting characters.......')
 # collect and organize the characters that are unlocked
 toons=collection.find_all("div","col-xs-6 col-sm-3 col-md-3 col-lg-2")
-missing_light = len(collection.find_all("div","collection-char collection-char-missing collection-char-light-side"))
-missing_dark = len(collection.find_all("div","collection-char collection-char-missing collection-char-dark-side"))
-num_chars = len(toons) - missing_dark - missing_light
+
+user = Collections('vomz')
+num_chars = len(user.owned_toons())
+# missing_light = len(collection.find_all("div","collection-char collection-char-missing collection-char-light-side"))
+# missing_dark = len(collection.find_all("div","collection-char collection-char-missing collection-char-dark-side"))
+# num_chars = len(toons) - missing_dark - missing_light
 
 # Create links for each character unlocked
 links = []
-for i in range(0,num_chars):
-	links.append(toons[i].find_all('a','char-portrait-full-link')[0].get('href'))
+links = [toon.link for toon in user.owned_toons()]
+# for i in range(0,num_chars):
+# 	# links.append(toons[i].find_all('a','char-portrait-full-link')[0].get('href'))
+#     links.append()
 
-# Define needed lists 
+# Define needed lists
 toons=[]
 levels=[]
 gear_level=[]
@@ -37,9 +44,9 @@ skills=[]
 skill_levels=[]
 category=[]
 
-print 'Gathering character data.......'
+print('Gathering character data.......')
 
-# Collect information about each of the characters 
+# Collect information about each of the characters
 for i in range(0,len(links)):
 	page=session.get('https://swgoh.gg/'+links[i])
 	character=BeautifulSoup(page.text,'html.parser')
@@ -52,7 +59,7 @@ for i in range(0,len(links)):
 
 	# gear needed and number of gear needed
 	numneed=[]
-	gearneed=[]		
+	gearneed=[]
 	for j in range(0,len(character.find_all('div','pc-needed-gear-preview'))):
 		gearneed.append(character.find_all('div','pc-needed-gear-preview')[j].span.get('title'))
 		numneed.append(character.find_all('div','pc-needed-gear-count')[j].text)
@@ -63,7 +70,7 @@ for i in range(0,len(links)):
 	page=page.close()
 
 # Write gear and other information to text files
-print 'Writing data.......'
+print('Writing data.......')
 
 file = open('Data/toons.txt','w')
 for i in range(0,len(toons)):
@@ -111,8 +118,8 @@ file.close()
 #     mods=BeautifulSoup(mods.text,'html.parser')
 #     mod_data = mods.find_all('div','collection-mod')
 #     for j in mod_data:
-#         mod_level = j.find_all('span','statmod-level')[0].text        
-        
+#         mod_level = j.find_all('span','statmod-level')[0].text
+
 #         if mod_level != '15':
 #         	continue
 #         else:
@@ -156,9 +163,9 @@ file.close()
 # 	            secondary_stat_4_value = j.find_all('span','statmod-stat-value')[4].text[1:]
 # 	        except:
 # 	            pass
-	        
+
 # 	        filex.write(mod_level+','+mod_pip+','+mod_group+','+mod_slot+','+main_stat_value+','+main_stat_text+','+secondary_stat_1_text+','+secondary_stat_2_text+','+secondary_stat_3_text+','+secondary_stat_4_text+','+secondary_stat_1_value+','+secondary_stat_2_value+','+secondary_stat_3_value+','+secondary_stat_4_value+'\n')
-	        
+
 # filex.close()
 
 # print length the file took to run

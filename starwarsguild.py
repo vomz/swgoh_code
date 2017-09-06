@@ -82,7 +82,7 @@ for i in mlist2:
         members.append(i.a.strong.text)
     else:
         pass
-#mlist3=['/u/vomz/']
+#mlist3=['/u/gimmeaggro/','/u/vomz/']
 for q in mlist3:
     mem = q.split('/')[2]
     
@@ -91,7 +91,8 @@ for q in mlist3:
     # Translate the web page for use in BeautifulSoup
     collection = BeautifulSoup(r.text,'html.parser')
     file3=open('csv\\gp.txt','a+')
-    file3.write(mem+','+collection.find_all('strong','pull-right')[2].text+'\n')
+    print collection.find_all('div','panel-body')[1].strong.text.replace(',','')
+    file3.write(mem+','+collection.find_all('div','panel-body')[1].strong.text.replace(',','')+'\n')
     file3.close()
     print 'Collecting '+mem+'\'s characters.......'
 
@@ -121,74 +122,7 @@ for q in mlist3:
                 gear_level.append(i.div.div.find_all('div','char-portrait-full-gear-level')[0].text)
                 stars.append(starcount(i.div.div.find_all('div')))
 
-        
-    # collect and organize the characters that are unlocked
-#    toons=collection.find_all("div","col-xs-6 col-sm-3 col-md-3 col-lg-2")
-#    missing_light = len(collection.find_all("div","collection-char collection-char-missing collection-char-light-side"))
-#    missing_dark = len(collection.find_all("div","collection-char collection-char-missing collection-char-dark-side"))
-#    num_chars = len(toons) - missing_dark - missing_light
-#    
-#    # Create links for each character unlocked
-#    links = []
-#    for i in range(0,num_chars):
-#        links.append(toons[i].find_all('a','char-portrait-full-link')[0].get('href'))
-#        try:
-#            if 'Chirrut' in toons[i].find_all('a','char-portrait-full-link')[0].img.get('alt'):
-#                dicti['Chirrut Imwe'].append(mem)
-#            else:
-#                dicti[toons[i].find_all('a','char-portrait-full-link')[0].img.get('alt')].append(mem)
-#        except:
-#            pass
-#    
-#    #Define needed lists 
-#    toons=[]
-#    levels=[]
-#    gear_level=[]
-#    gear_needed=[]
-#    number_needed=[]
-#    stars=[]
-#    skills=[]
-#    skill_levels=[]
-#    category=[]
-#    gp=[]
-#    
-#    print 'Gathering '+mem+'\'s character data.......'
-#    
-#    # Collect information about each of the characters 
-#    for i in range(0,len(links)):
-#        page=session.get('https://swgoh.gg/'+links[i])
-#        character=BeautifulSoup(page.text,'html.parser')
-#        gear_level.append(character.find_all('div','pc-heading')[0].text)
-#        gp.append(character.find_all('span','pc-gp-stat-amount-value pc-gp-stat-amount-current')[0].text)
-#        # name
-#        if 'Chirrut' in character.find_all('a','pc-char-overview-name')[0].text:
-#            toons.append('Chirrut Imwe')
-#        else:
-#            toons.append(character.find_all('a','pc-char-overview-name')[0].text)
-#        
-#        if len(character.find_all('div','star star7'))>0:
-#            stars.append('7')
-#        else:
-#            if len(character.find_all('div','star star6'))>0:
-#                stars.append('6')
-#            else:
-#                if len(character.find_all('div','star star5'))>0:
-#                    stars.append('5')
-#                else:
-#                    if len(character.find_all('div','star star4'))>0:
-#                        stars.append('4')
-#                    else:
-#                        if len(character.find_all('div','star star3'))>0:
-#                            stars.append('3')
-#                        else:
-#                            if len(character.find_all('div','star star2'))>0:
-#                                stars.append('2')
-#                            else:
-#                                if len(character.find_all('div','star star1'))>0:
-#                                    stars.append('1')
-#            
-
-
+ 
 
     # Write gear and other information to text files
     print 'Writing data.......'

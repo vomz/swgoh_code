@@ -1,37 +1,37 @@
-vomz,1,760,814
-giraffes12310,1,757,629
-sp,2,069,464
-terrzm,1,747,550
-gimmeaggro,Gimmeaggro
-harifarkas,1,792,723
-pointmanbinga,Sep 21, 2016
-legitskies5,1,023,067
-qikstart,1,343,521
-lawdog68,946,018
-roahkarr,Dec 17, 2016
-kungfuowlbear,Nov 02, 2016
-chaoskai808,Nov 10, 2016
-riconn,Feb 02, 2017
-bicolorlobster,Oct 26, 2016
-mmike1214,1,203,965
-hunto,1,587,680
-spectreone,2,351,429
-julasera,1,268,671
-adcox7881,1,784,323
-w0m,1,559,209
-mesauna,Mar 30, 2017
-scott7279,Apr 03, 2017
-fanman,2,087,888
-atongha,Apr 18, 2017
-alextheexile,Apr 19, 2017
-leechi42,Apr 18, 2017
-timmyt,Apr 21, 2017
-raptor2000,Apr 12, 2017
-vadenkhale,1,589,772
-aep,Oct 10, 2016
-stryfeing,1,578,500
-illucian,787,975
-wrobeldawg,May 23, 2017
-orion121312,1,164,734
-ricoual74,Mar 04, 2017
-ogre6446,1,486,361
+vomz,1760814
+giraffes12310,1757629
+sp,2069464
+terrzm,1747550
+gimmeaggro,1800529
+harifarkas,1792723
+pointmanbinga,1201568
+legitskies5,1023067
+qikstart,1343521
+lawdog68,946018
+roahkarr,1583675
+kungfuowlbear,1281842
+chaoskai808,1499534
+riconn,1500358
+bicolorlobster,1906485
+mmike1214,1203965
+hunto,1587680
+spectreone,2351429
+julasera,1268671
+adcox7881,1784323
+w0m,1559209
+mesauna,1828052
+scott7279,1839858
+fanman,2087888
+atongha,1697788
+alextheexile,1331107
+leechi42,1705969
+timmyt,1636815
+raptor2000,1854323
+vadenkhale,1589772
+aep,2327649
+stryfeing,1578500
+illucian,787975
+wrobeldawg,1470541
+orion121312,1164734
+ricoual74,1892138
+ogre6446,1486361

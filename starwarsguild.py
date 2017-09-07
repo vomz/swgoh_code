@@ -91,7 +91,6 @@ for q in mlist3:
     # Translate the web page for use in BeautifulSoup
     collection = BeautifulSoup(r.text,'html.parser')
     file3=open('csv\\gp.txt','a+')
-    print collection.find_all('div','panel-body')[1].strong.text.replace(',','')
     file3.write(mem+','+collection.find_all('div','panel-body')[1].strong.text.replace(',','')+'\n')
     file3.close()
     print 'Collecting '+mem+'\'s characters.......'

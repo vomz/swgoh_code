@@ -84,12 +84,12 @@ for i in mlist2:
         pass
 #mlist3=['/u/gimmeaggro/','/u/vomz/']
 for q in mlist3:
-    mem = q.split('/')[2]
+    
     
     r = session.get('https://swgoh.gg'+q+'collection')
-        
     # Translate the web page for use in BeautifulSoup
     collection = BeautifulSoup(r.text,'html.parser')
+    mem = collection.find_all('a','no-decoration char-name')[1].text    
     file3=open('csv\\gp.txt','a+')
     file3.write(mem+','+collection.find_all('div','panel-body')[1].strong.text.replace(',','')+'\n')
     file3.close()

@@ -1,40 +1,41 @@
-Vomz,1770409
-Giraffes12310,1764460
-sp,2083956
-Terrzm,1761270
+Vomz,1771549
+Giraffes12310,1765283
+sp,2093029
+Terrzm,1765320
 Gimmeaggro,1807486
-Hari Farkas,1810919
+Hari Farkas,1814145
 PoinTmaN BingA,1205599
 Legitskies5,1023067
-Qikstart,1352318
+Qikstart,1352631
 Lawdog,960174
-Roahkarr,1631787
-Kungfu Owlbear,1301721
-chaoskai808,1510481
+Roahkarr,1642739
+Kungfu Owlbear,1311996
+chaoskai808,1511217
 Riconn,1520722
-BiColorLobster,1918992
+BiColorLobster,1921189
 Mmike1214,1232235
-hunterrr,1604232
-Serenity Shann,2366648
-Julasera,1276331
+hunterrr,1604354
+Serenity Shann,2367066
+Julasera,1299731
 MAL,1794195
-wom,1572175
-Mesauna,1835591
-Reparations Required,1853060
-Fan Man,2105929
-Atongha Tundraleap,1723449
-TheExile,1357055
-leechi42,1722444
-Tim,1665293
+wom,1576123
+Mesauna,1836480
+Reparations Required,1853068
+Fan Man,2106318
+Atongha Tundraleap,1728945
+TheExile,1359303
+leechi42,1724035
+Tim,1665697
 Raptor2000,1866782
-Vaden Khale,1604034
-aep,2344500
-Stryfeing,1611178
-Illucian,804777
-Wrobel Dawg,1484630
-Orion121312,1168780
-Ru Baruba Maral,1900634
-ogre man,1503363
-DI,1706450
-Nightwing,1733067
-Ashnolo,720446
+Vaden Khale,1604710
+aep,2345743
+Stryfeing,1611541
+Illucian,808051
+Wrobel Dawg,1485971
+Orion121312,1169122
+Ru Baruba Maral,1903595
+ogre man,1506115
+DI,1710015
+Nightwing,1740632
+Ashnolo,727928
+Eldricht,1623033

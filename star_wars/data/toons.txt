@@ -1,23 +1,24 @@
 Commander Luke Skywalker
 R2-D2
+CC-2224 "Cody"
 Qui-Gon Jinn
 Han Solo
-CC-2224 "Cody"
 Darth Vader
 Darth Maul
+Ahsoka Tano (Fulcrum)
 General Kenobi
 Kylo Ren
 Emperor Palpatine
 Grand Master Yoda
 CT-21-0408 "Echo"
-Boba Fett
-Jedi Knight Anakin
 CT-5555 "Fives"
 CT-7567 "Rex"
+Boba Fett
+Jedi Knight Anakin
+Clone Sergeant - Phase I
 Princess Leia
 Stormtrooper Han
 Lando Calrissian
-Clone Sergeant - Phase I
 Mace Windu
 Darth Sidious
 Luke Skywalker (Farmboy)
@@ -28,12 +29,12 @@ Rey
 Dathcha
 First Order Officer
 First Order TIE Pilot
+Wedge Antilles
 Obi-Wan Kenobi (Old Ben)
 Ahsoka Tano
-Wedge Antilles
+Biggs Darklighter
 Chief Nebit
 TIE Fighter Pilot
-Biggs Darklighter
 Ewok Elder
 Tusken Shaman
 Grand Moff Tarkin
@@ -56,9 +57,8 @@ Sabine Wren
 Asajj Ventress
 Garazeb "Zeb" Orrelios
 Kanan Jarrus
-Ahsoka Tano (Fulcrum)
-Count Dooku
 Eeth Koth
+Count Dooku
 Resistance Trooper
 Cad Bane
 Death Trooper
@@ -67,44 +67,46 @@ Snowtrooper
 Jyn Erso
 Resistance Pilot
 Chopper
+Hoth Rebel Scout
+Cassian Andor
 Jawa
 Old Daka
+K-2SO
 Director Krennic
-Hoth Rebel Scout
 Hera Syndulla
 Ezra Bridger
 Darth Nihilus
 General Veers
+Chirrut Imwe
 Talia
-Cassian Andor
 Finn
 Magmatrooper
 Nute Gunray
 Poggle the Lesser
-Chirrut Imwe
 Geonosian Soldier
-K-2SO
-Clone Wars Chewbacca
-Hoth Rebel Soldier
-Geonosian Spy
 Jedi Knight Guardian
+Hoth Rebel Soldier
+Clone Wars Chewbacca
+Baze Malbus
+Geonosian Spy
 Nightsister Initiate
 Stormtrooper
 Greedo
 IG-100 MagnaGuard
+Zam Wesell
 Nightsister Acolyte
 Bistan
-Grand Admiral Thrawn
-Zam Wesell
 Sun Fac
+Grand Admiral Thrawn
 Scarif Rebel Pathfinder
 Coruscant Underworld Police
 Barriss Offee
+Imperial Super Commando
 Lobot
+Pao
 Paploo
 Logray
 Tusken Raider
-Imperial Super Commando
 Wicket
 Plo Koon
 Gar Saxon
@@ -114,4 +116,3 @@ Bodhi Rook
 Mob Enforcer
 Kit Fisto
 Ugnaught
-Pao

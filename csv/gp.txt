@@ -1,43 +1,44 @@
-Vomz,1801570
-Giraffes12310,1780726
-sp,2099638
-Terrzm,1776589
-Gimmeaggro,1825678
-Hari Farkas,1830895
-PoinTmaN BingA,1213986
-Qikstart,1366357
+Vomz,1805567
+Giraffes12310,1785277
+sp,2104123
+Terrzm,1780931
+Gimmeaggro,1833139
+Hari Farkas,1831571
+PoinTmaN BingA,1214493
+Qikstart,1373873
 Lawdog,970163
-Roahkarr,1654704
-Kungfu Owlbear,1324776
-chaoskai808,1550776
-Riconn,1539860
-BiColorLobster,1936028
-Mmike1214,1249558
-hunterrr,1613092
-Serenity Shann,2371212
-Julasera,1307510
-MAL,1807401
+Roahkarr,1657082
+Kungfu Owlbear,1325914
+chaoskai808,1551110
+Riconn,1543852
+BiColorLobster,1950208
+Mmike1214,1262351
+hunterrr,1619197
+Serenity Shann,2379102
+Julasera,1319757
+MAL,1807544
 wom,1608011
-Mesauna,1860116
-Reparations Required,1865901
+Mesauna,1868511
+Reparations Required,1869502
 Fan Man,2112642
 Atongha Tundraleap,1736583
-TheExile,1365811
-leechi42,1766474
-Tim,1668876
-Raptor2000,1866987
-Vaden Khale,1627588
-aep,2363346
-Stryfeing,1620638
-Illucian,811861
+TheExile,1365850
+leechi42,1774502
+Tim,1669096
+Raptor2000,1867251
+Vaden Khale,1627786
+aep,2363607
+Stryfeing,1620659
+Illucian,816027
 Wrobel Dawg,1502924
-Orion121312,1182277
-Ru Baruba Maral,1927021
-ogre man,1513719
-DI,1729593
-Nightwing,1753278
-Ashnolo,746799
-Eldricht,1633962
-Mol Mayhem,1552782
-Der Rexxor,1452627
-Htrad Redav,1414666
+Orion121312,1186751
+Ru Baruba Maral,1930343
+ogre man,1518982
+DI,1738520
+Nightwing,1754561
+Eldricht,1637771
+Mol Mayhem,1574846
+Der Rexxor,1459598
+Htrad Redav,1418535
+Halaku007,860169
+Lourdous,975222

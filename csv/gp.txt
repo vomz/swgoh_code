@@ -1,18 +1,18 @@
-Vomz,1813442
-Giraffes12310,1795881
-sp,2118541
-Terrzm,1803900
+Vomz,1820680
+Giraffes12310,1802634
+sp,2134024
+Terrzm,1814551
 Gimmeaggro,1868290
-Hari Farkas,1842297
-PoinTmaN BingA,1228690
+Hari Farkas,1843619
+PoinTmaN BingA,1231798
 Qikstart,1375400
 Lawdog,972471
 Roahkarr,1677394
 Kungfu Owlbear,1339214
-chaoskai808,1554142
+chaoskai808,1565856
 Riconn,1562031
 BiColorLobster,1956395
-Mmike1214,1272829
+Mmike1214,1280013
 hunterrr,1638035
 Serenity Shann,2383860
 Julasera,1328316
@@ -22,23 +22,23 @@ Mesauna,1882872
 Reparations Required,1882515
 Fan Man,2124132
 Atongha Tundraleap,1758345
-TheExile,1377626
+TheExile,1377648
 leechi42,1796568
-Tim,1670094
-Raptor2000,1890938
+Tim,1670153
+Raptor2000,1895369
 Vaden Khale,1634966
-aep,2379734
+aep,2380646
 Stryfeing,1627853
 Illucian,820756
 Wrobel Dawg,1516900
-Orion121312,1191306
+Orion121312,1191643
 Ru Baruba Maral,1980354
-ogre man,1537647
-DI,1752186
+ogre man,1554710
+DI,1760079
 Nightwing,1754561
 Eldricht,1640349
 Mol Mayhem,1574846
-Der Rexxor,1483460
+Der Rexxor,1485427
 Htrad Redav,1428926
 Halaku007,860169
 Lourdous,978632

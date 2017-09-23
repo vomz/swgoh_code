@@ -30,8 +30,6 @@ front = session.get('https://swgoh.gg/')
 collection = BeautifulSoup(front.text,'html.parser')
 names=collection.find_all("li","media list-group-item p-0 character")
 
-toons=[]
-
 linkx = []
 for i in range(0,len(names)):
     if 'Chirrut' in names[i].img.get('alt'):
@@ -39,23 +37,27 @@ for i in range(0,len(names)):
     else:
         linkx.append(names[i].img.get('alt'))
 
+sfront=session.get('https://swgoh.gg/ships')
+collection = BeautifulSoup(sfront.text,'html.parser')
+names=collection.find_all("h5")
+names.pop(0)
+for i in names:
+    linkx.append(i.text)
+
+
 dicti={key:[] for key in linkx}
-
-file3=open('csv\\gp.txt','w')
-file3.close()
-
     
 file = open('csv\\guildstars.txt','w')
 file2 = open('csv\\guildgearlevel.txt','w')
 file.write('Member,')
 file2.write('Member,')
-for i in linkx:
-    if 'Chirrut' in i:
+for k in linkx:
+    if 'Chirrut' in k:
         file.write('Chirrut Imwe,')
         file2.write('Chirrut Imwe,')
     else:
-        file.write(i+',')
-        file2.write(i+',')
+        file.write(k+',')
+        file2.write(k+',')
 file.write('\n')
 file2.write('\n')
 file.close()
@@ -82,7 +84,7 @@ for i in mlist2:
         members.append(i.a.strong.text)
     else:
         pass
-#mlist3=['/u/gimmeaggro/','/u/vomz/']
+#mlist3=['/u/vomz/']
 for q in mlist3:
     
     
@@ -90,9 +92,7 @@ for q in mlist3:
     # Translate the web page for use in BeautifulSoup
     collection = BeautifulSoup(r.text,'html.parser')
     mem = collection.find_all('a','no-decoration char-name')[1].text    
-    file3=open('csv\\gp.txt','a+')
-    file3.write(mem+','+collection.find_all('div','panel-body')[1].strong.text.replace(',','')+'\n')
-    file3.close()
+    
     print 'Collecting '+mem+'\'s characters.......'
 
     #Define needed lists 
@@ -120,9 +120,28 @@ for q in mlist3:
                 dicti[i.div.div.img.get('alt')].append(mem)
                 gear_level.append(i.div.div.find_all('div','char-portrait-full-gear-level')[0].text)
                 stars.append(starcount(i.div.div.find_all('div')))
-
  
 
+
+
+   
+    
+    r = session.get('https://swgoh.gg'+q+'ships')
+    # Translate the web page for use in BeautifulSoup
+    collection = BeautifulSoup(r.text,'html.parser')
+    ship_names=[]
+    ship_stars=[]
+    ships = collection.find_all('div','col-sm-6 col-md-6 col-lg-4')
+    for i in ships:
+        ship_names.append(i.find('a','collection-ship-name-link').text)
+        #print i.find('a','collection-ship-name-link').text
+        dicti[i.find('a','collection-ship-name-link').text].append(mem)
+        if 'collection-ship-missing' in i.div.get('class'):
+            ship_stars.append('0')
+            #print '0'
+        else:
+            ship_stars.append(7-len(i.find_all('div','ship-portrait-full-star  ship-portrait-full-star-inactive')))
+            #print 7-len(i.find_all('div','ship-portrait-full-star  ship-portrait-full-star-inactive'))
     # Write gear and other information to text files
     print 'Writing data.......'
     
@@ -133,10 +152,19 @@ for q in mlist3:
     file2.write(mem+',')
     for j in linkx:
         if mem in dicti[j]:
-            place = [q for q,ax in enumerate(toons) if ax == j]
-            place=place[0]
-            file.write(str(stars[place])+',')
-            file2.write(str(gear_level[place])+',')
+            try:
+                place = [q for q,ax in enumerate(toons) if ax == j]
+                place=place[0]
+                #print j+str(stars[place])
+                file.write(str(stars[place])+',')
+                file2.write(str(gear_level[place])+',')
+            except:
+                place = [q for q,ax in enumerate(ship_names) if ax == j]
+                place=place[0]
+                #print j+str(ship_stars[place])
+                file.write(str(ship_stars[place])+',')
+                
+
         else:
             file.write(',')
             file2.write(',')

@@ -7,11 +7,8 @@ from bs4 import BeautifulSoup
 
 
 #which toons are wanted
-toon=['Ahsoka Tano (Fulcrum)','Hera Syndulla','Ezra Bridger','Sabine Wren','Garazeb "Zeb" Orrelios','Kanan Jarrus','Jyn Erso','Cassian Andor','K-2SO','Chirrut Imwe','Baze Malbus']
-#toon=['Ahsoka Tano (Fulcrum)','CC-2224 "Cody"','CT-21-0408 "Echo"','CT-5555 "Fives"','CT-7567 "Rex"','Clone Sergeant - Phase I']
-#'Ahsoka Tano (Fulcrum)','Jyn Erso','Cassian Andor','K-2SO','Chirrut Imwe'
-#opens and reads all files created by starwars.py and creates other variables that are needed
-#'Hera Syndulla','Ezra Bridger','Sabine Wren','Garazeb "Zeb" Orrelios','Kanan Jarrus'
+#toon=['Chirrut Imwe','Baze Malbus']
+toon=['Poe Dameron','Finn','Resistance Trooper','Rey','BB-8']
 toons = open('Data/toons.txt','r')
 toons = map(str.strip,toons.readlines())
 #levels = open('Data/levels.txt','r')

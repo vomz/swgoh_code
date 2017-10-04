@@ -4,8 +4,8 @@ CC-2224 "Cody"
 Qui-Gon Jinn
 Han Solo
 Darth Vader
-Darth Maul
 Ahsoka Tano (Fulcrum)
+Darth Maul
 General Kenobi
 Kylo Ren
 Emperor Palpatine
@@ -46,38 +46,41 @@ Royal Guard
 Savage Opress
 Ewok Scout
 HK-47
+Cassian Andor
+Jyn Erso
 Jawa Engineer
+K-2SO
 Dengar
 Admiral Ackbar
 Jawa Scavenger
 Poe Dameron
 Jedi Consular
-Luminara Unduli
-Sabine Wren
 Asajj Ventress
+Sabine Wren
+Luminara Unduli
 Garazeb "Zeb" Orrelios
 Kanan Jarrus
+Resistance Trooper
 Eeth Koth
 Count Dooku
-Resistance Trooper
 Cad Bane
 Death Trooper
 Shoretrooper
 Snowtrooper
-Jyn Erso
+Chirrut Imwe
 Resistance Pilot
+Hera Syndulla
 Chopper
 Hoth Rebel Scout
-Cassian Andor
+Hoth Rebel Soldier
 Jawa
 Old Daka
-K-2SO
 Director Krennic
-Hera Syndulla
+Baze Malbus
+Captain Han Solo
 Ezra Bridger
 Darth Nihilus
 General Veers
-Chirrut Imwe
 Talia
 Finn
 Magmatrooper
@@ -85,34 +88,34 @@ Nute Gunray
 Poggle the Lesser
 Geonosian Soldier
 Jedi Knight Guardian
-Hoth Rebel Soldier
 Clone Wars Chewbacca
-Baze Malbus
 Geonosian Spy
+IG-100 MagnaGuard
 Nightsister Initiate
 Stormtrooper
 Greedo
-IG-100 MagnaGuard
 Zam Wesell
 Nightsister Acolyte
+Lobot
 Bistan
+Ugnaught
 Sun Fac
+Pao
 Grand Admiral Thrawn
 Scarif Rebel Pathfinder
 Coruscant Underworld Police
+Logray
 Barriss Offee
 Imperial Super Commando
-Lobot
-Pao
+Sith Assassin
 Paploo
-Logray
 Tusken Raider
+Veteran Smuggler Chewbacca
 Wicket
 Plo Koon
 Gar Saxon
 Sith Trooper
-Sith Assassin
+Veteran Smuggler Han Solo
 Bodhi Rook
 Mob Enforcer
 Kit Fisto
-Ugnaught

@@ -1,3 +1,5 @@
+https://www.zillow.com/homes/for_sale/house_type/4-_beds/3-_baths/0-400000_price/0-1481_mp/globalrelevanceex_sort/35.176474,-80.559998,35.057261,-80.744534_rect/12_zm/674505a09eX1-CR53ozy0wwlif2_wxjl5_crid/
+
 file=open('C:/Users/ryanc/Google Drive/Loc_ENG_US.txt')
 swtext = file.readlines()
 sw2=[]

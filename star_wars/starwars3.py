@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 
 #which toons are wanted
 #toon=['Chirrut Imwe','Baze Malbus']
-toon=['Poe Dameron','Finn','Resistance Trooper','Rey','BB-8']
+toon=['Savage Opress','Death Trooper','Darth Nihilus','Sun Fac','Barriss Offee','Grand Admiral Thrawn','Wedge Antilles','Biggs Darklighter','Mother Talzin','Asajj Ventress','Talia','Nightsister Initiate','Nightsister Zombie','Kylo Ren (Unmasked)','First Order SF TIE Pilot','Sith Assassin','Sith Trooper','Jyn Erso','Cassian Andor','K-2SO','Chirrut Imwe','Baze Malbus','Teebo','Ewok Elder','Logray','Paploo','Wicket','Obi-Wan Kenobi (Old Ben)','Rebel Officer Leia Organa','Captain Han Solo','Kanan Jarrus','Garazeb "Zeb" Orrelios','Sabine Wren','Hera Syndulla','Ezra Bridger']
 toons = open('Data/toons.txt','r')
 toons = map(str.strip,toons.readlines())
 #levels = open('Data/levels.txt','r')
@@ -124,7 +124,7 @@ for name,dgear in delta.items():
 if len(locked) > 0:
     body = "Have you unlocked "+' or '.join(locked)+"?\n"+'These are the pieces of salvage:\n\n'+'\n'.join(input_list)+'\n\n'+'\n\n'.join(delta_list)
 else:
-    body = 'These are the pieces of salvage:\n\n'+'\n'.join(input_list)+'\n\n'+'\n\n'.join(delta_list)
+    body = 'These are the pieces of salvage:\n\n'+'\n'.join(input_list)#+'\n\n'+'\n\n'.join(delta_list)
 
 
 print body

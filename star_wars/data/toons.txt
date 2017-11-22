@@ -1,121 +1,129 @@
 Commander Luke Skywalker
 R2-D2
+Han Solo
 CC-2224 "Cody"
 Qui-Gon Jinn
-Han Solo
 Darth Vader
-Ahsoka Tano (Fulcrum)
+Finn
 Darth Maul
 General Kenobi
+Ahsoka Tano (Fulcrum)
 Kylo Ren
 Emperor Palpatine
 Grand Master Yoda
+BB-8
 CT-21-0408 "Echo"
 CT-5555 "Fives"
 CT-7567 "Rex"
 Boba Fett
 Jedi Knight Anakin
 Clone Sergeant - Phase I
-Princess Leia
 Stormtrooper Han
 Lando Calrissian
+Princess Leia
 Mace Windu
+Rey (Scavenger)
 Darth Sidious
-Luke Skywalker (Farmboy)
+Poe Dameron
 Captain Phasma
-First Order Stormtrooper
+Luke Skywalker (Farmboy)
 Teebo
-Rey
+First Order Stormtrooper
 Dathcha
 First Order Officer
 First Order TIE Pilot
+Resistance Trooper
 Wedge Antilles
-Obi-Wan Kenobi (Old Ben)
 Ahsoka Tano
 Biggs Darklighter
 Chief Nebit
 TIE Fighter Pilot
-Ewok Elder
 Tusken Shaman
+Obi-Wan Kenobi (Old Ben)
 Grand Moff Tarkin
+Ewok Elder
 Ima-Gun Di
 IG-86 Sentinel Droid
-Chief Chirpa
 IG-88
-Royal Guard
+Chirrut Imwe
 Savage Opress
-Ewok Scout
+Asajj Ventress
 HK-47
+Royal Guard
 Cassian Andor
 Jyn Erso
+Chief Chirpa
 Jawa Engineer
 K-2SO
 Dengar
 Admiral Ackbar
+Hera Syndulla
+Ewok Scout
+Old Daka
 Jawa Scavenger
-Poe Dameron
 Jedi Consular
-Asajj Ventress
 Sabine Wren
+Talia
 Luminara Unduli
 Garazeb "Zeb" Orrelios
+Nightsister Initiate
 Kanan Jarrus
-Resistance Trooper
 Eeth Koth
 Count Dooku
 Cad Bane
+Hoth Rebel Scout
+Baze Malbus
 Death Trooper
 Shoretrooper
 Snowtrooper
-Chirrut Imwe
 Resistance Pilot
-Hera Syndulla
+Captain Han Solo
 Chopper
-Hoth Rebel Scout
+Ezra Bridger
 Hoth Rebel Soldier
 Jawa
-Old Daka
 Director Krennic
-Baze Malbus
-Captain Han Solo
-Ezra Bridger
 Darth Nihilus
 General Veers
-Talia
-Finn
+Mother Talzin
+Kylo Ren (Unmasked)
+Clone Wars Chewbacca
 Magmatrooper
 Nute Gunray
 Poggle the Lesser
 Geonosian Soldier
 Jedi Knight Guardian
-Clone Wars Chewbacca
+First Order SF TIE Pilot
 Geonosian Spy
 IG-100 MagnaGuard
-Nightsister Initiate
+Coruscant Underworld Police
 Stormtrooper
-Greedo
 Zam Wesell
+Ugnaught
+Pao
+Greedo
 Nightsister Acolyte
+Sun Fac
+Grand Admiral Thrawn
+Logray
 Lobot
 Bistan
-Ugnaught
-Sun Fac
-Pao
-Grand Admiral Thrawn
+Gamorrean Guard
 Scarif Rebel Pathfinder
-Coruscant Underworld Police
-Logray
 Barriss Offee
 Imperial Super Commando
+Mob Enforcer
+Wicket
+Plo Koon
+Gar Saxon
+Rebel Officer Leia Organa
+Sith Trooper
 Sith Assassin
 Paploo
 Tusken Raider
 Veteran Smuggler Chewbacca
-Wicket
-Plo Koon
-Gar Saxon
-Sith Trooper
 Veteran Smuggler Han Solo
+Nightsister Zombie
 Bodhi Rook
-Mob Enforcer
 Kit Fisto
+Nightsister Spirit

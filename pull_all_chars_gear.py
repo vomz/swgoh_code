@@ -50,4 +50,4 @@ for i in characters:
                     x=1
             
 dfall = pd.DataFrame(data=dict)            
-# dfall.to_csv(os.getcwd()+'\\all.csv')
+#dfall.to_csv(os.getcwd()+'\\all.csv')

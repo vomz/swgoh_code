@@ -97,4 +97,4 @@ for i in characters:
         dict[gear.h1.a.text.split('\n')[1]]['Categories']=categories
         
 dfmy = pd.DataFrame(data=dict)            
-dfmy.to_csv(os.getcwd()+'\\mine.csv')
+#dfmy.to_csv(os.getcwd()+'\\mine.csv')

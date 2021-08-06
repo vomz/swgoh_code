@@ -13,7 +13,12 @@ chars.index.name=None
 app = Flask(__name__)
 
 @app.route('/',methods=("POST","GET"))
-def gear_table(char='Jedi Master Luke Skywalker'):
+def character():
+    return render_template('char.html')
+
+@app.route('/gear',methods=("POST","GET"))
+def gear_table():
+    char=request.form.get("Character")
     g1=pd.DataFrame(chars[char][(chars.index>=1)&(chars.index<2)])
     g2=pd.DataFrame(chars[char][(chars.index>=2)&(chars.index<3)])
     g3=pd.DataFrame(chars[char][(chars.index>=3)&(chars.index<4)])
